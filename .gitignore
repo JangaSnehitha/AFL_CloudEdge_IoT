@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.flwr/
+*.log
+.DS_Store
+.env
+data/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
