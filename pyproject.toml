@@ -1,7 +1,9 @@
+
 [project]
 name = "afl-cloudedge-iot"
 version = "0.1.0"
 description = "Experimental evaluation of asynchronous federated learning"
+license = { text = "MIT"}
 dependencies = [
     "flwr[simulation]==1.39.0",
     "torch",
@@ -16,7 +18,7 @@ serverapp = "app.server_app:app"
 clientapp = "app.client_app:app"
 
 [tool.flwr.app.config]
-num-server-rounds = 1
+num-server-rounds = 10
 
 
 #######################################################################
